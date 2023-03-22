@@ -1,0 +1,177 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{
+    font-family: "Titillium Web";
+    padding: 5;
+    margin: 5;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* comienzo */
+
+.comienzo .seccion{
+    
+    margin: auto;
+    padding: 0 60px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.comienzo .seccion .dato{
+    padding-bottom: 20px;
+}
+.comienzo .seccion .dato h1{
+
+    letter-spacing: 10px;
+    font-size: 4rem;
+}
+
+.comienzo .seccion .foto{
+    position: relative;
+}
+.comienzo .seccion .foto img{
+    border: 5px solid black;
+    border-radius: 20%;
+    max-width: 250px;
+    left: 50%;
+    top: -90px;
+    position: absolute;
+    transform: translateX(-40%);
+}
+
+/* reseña */
+.reseña{
+    background-color: beige;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.reseña .seccion .especial{
+    color:blue;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.reseña .seccion .fila{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.reseña .seccion .fila .col{
+    width: 25%;
+}
+.reseña .seccion .fila .col i{
+    color:green;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border: 3px solid green;
+    border-radius: 40%;
+    line-height: 38px;
+    
+}
+.reseña .seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 4px 0;
+}
+/* habilidades */
+.habilidades{
+    padding: 70px 0 110px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://pcredcom.com/blog/wp-content/uploads/2020/06/tipos-de-computadoras.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}
+.habilidades .seccion{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.habilidades .seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.habilidades .seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.habilidades .seccion .barra{
+    display: flex;
+    border: 2px solid black;
+    padding: 1px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+.habilidades .seccion .barra .e{
+    background-color:black;
+    width: 20px;
+    height: 25px;
+    margin-right: 1px;
+}
+/* resumen */
+.resumen{
+    background-color: white;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.resumen .seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.resumen .seccion .dato{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.resumen .seccion .dato .col{
+    width: 45%;
+}
+.resumen .seccion .dato .col .titulo{
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+    padding: 10px;
+
+}
+
+.resumen .seccion .dato .col table .descripcion{
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+/* contacto */
+.contacto{
+    background-color: beige;
+    padding: 140px 0 100px 0;
+    color: black;
+    text-align: center;
+}
+.contacto .seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .seccion .fila .col h2{
+    color:red;
+}
+
